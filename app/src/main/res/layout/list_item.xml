@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingLeft="0dp"
+        android:paddingTop="8dp"
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:paddingTop="5dp"
+        android:background="#FF9800"
+        android:orientation="vertical"
+        android:id="@+id/finalField">
+
+        <TextView
+            android:id="@+id/miwok_text_View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            tools:text="lutti" />
+
+        <TextView
+            android:id="@+id/default_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            tools:text="One" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/play"
+        android:paddingBottom="22dp"
+        android:paddingTop="20dp"
+        android:paddingRight="16dp"
+        android:id="@+id/play_sound"
+        android:background="#FF9800"/>
+</LinearLayout>
